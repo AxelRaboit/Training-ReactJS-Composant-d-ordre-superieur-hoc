@@ -24,7 +24,7 @@ class Goku extends Component {
 
         const button = life > 0
             ? (<button onClick={ addOneHit } className='btn btn-success m-3'>{name} Frappe</button>)
-            : (<button className='btn btn-danger m-3 disabled'>{name} Mort</button>)
+            : (<button className='btn btn-danger m-3 disabled'>Mort</button>)
         ;
 
         return (
