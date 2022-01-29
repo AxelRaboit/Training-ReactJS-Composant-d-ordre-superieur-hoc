@@ -18,19 +18,19 @@ class Goku extends Component {
         }
 
         const lifeValue = life > 0
-            ? (<td><span className={lifeRange}>{ life } %</span></td>)
+            ? (<td><span className={ lifeRange }>{ life } %</span></td>)
             : (<td><span className='badge bg-danger'>{ name } est mort</span></td>)
         ;
 
         const button = life > 0
-            ? (<button onClick={ addOneHit } className='btn btn-success m-3'>{name} Frappe</button>)
+            ? (<button onClick={ addOneHit } className='btn btn-success m-3'>{ name } Frappe</button>)
             : (<button className='btn btn-danger m-3 disabled'>Mort</button>)
         ;
 
         return (
             <div className='col'>
                 <div className='d-flex flex-column align-items-center'>
-                    <img className='goku' src={goku} alt="vegeta image" />
+                    <img className='goku' src={ goku } alt="vegeta image" />
                     { button }
                     <table className='table table-striped'>
                         <thead>
@@ -41,7 +41,7 @@ class Goku extends Component {
                         </thead>
                         <tbody>
                             <tr>
-                            <td>{hocState.hits}</td>
+                            <td>{ hocState.hits }</td>
                             { lifeValue }
                             </tr>
                         </tbody>
