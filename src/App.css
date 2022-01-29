@@ -4,3 +4,15 @@
 .goku {
     width: 373px;
 }
+
+.lowLife {
+    color: red;
+}
+
+.middleLife {
+    color: rgb(255, 132, 0);
+}
+
+.highLife {
+    color: rgb(17, 208, 23);
+}
