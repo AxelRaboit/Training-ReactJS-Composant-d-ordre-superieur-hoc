@@ -32,7 +32,7 @@ class Vegeta extends Component {
         return (
             <div className='col'>
                 <div className='d-flex flex-column align-items-center'>
-                    <img className='vegeta' src={vegeta} alt="vegeta image" />
+                    <img className='vegeta' src={ vegeta } alt="vegeta image" />
                     { button }
                     <table className='table table-striped'>
                         <thead>
