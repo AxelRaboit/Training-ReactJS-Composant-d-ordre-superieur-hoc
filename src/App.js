@@ -8,8 +8,8 @@ function App() {
       <h1>Goku Vs Vegeta</h1>
       <hr />
       <div className="row">
-        <Vegeta />
-        <Goku />
+        <Vegeta name='Vegeta' />
+        <Goku name='Goku' />
       </div>
     </div>
   );

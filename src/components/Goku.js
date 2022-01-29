@@ -20,7 +20,7 @@ class Goku extends Component {
             <div className='col'>
                 <div className='d-flex flex-column align-items-center'>
                     <img className='goku' src={goku} alt="vegeta image" />
-                    <button onClick={this.addOne} className='btn btn-success m-3'>Frapper</button>
+                    <button onClick={this.addOne} className='btn btn-success m-3'>{this.props.name} Frappe</button>
                     <table className='table table-striped'>
                         <thead>
                             <tr>
