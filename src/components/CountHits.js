@@ -18,17 +18,6 @@ const countHits = (WrappedComponent, power) => {
             })
         }
 
-/*         test = () => {
-            let lifeRange = 'highLife';
-            if(life > 60) {
-                lifeRange = 'highLife';
-            } else if(life > 30) {
-                lifeRange = 'middleLife';
-            } else if (life > 0) {
-                lifeRange = 'lowLife';
-            }
-        } */
-
         componentDidUpdate(prevProps, prevState) {
             if(this.state !== prevState) {
                 const ComponentName = WrappedComponent.name;
