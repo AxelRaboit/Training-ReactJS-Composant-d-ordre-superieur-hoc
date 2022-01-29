@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 
 const countHits = (WrappedComponent, power) => {
 
-    console.log();
-
     class CountHits extends Component {
         
         state = {
