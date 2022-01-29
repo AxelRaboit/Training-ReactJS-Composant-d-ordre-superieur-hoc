@@ -10,14 +10,14 @@ class App extends Component {
   
     this.state = {
        vegetaLife: 100,
-       gokuLife: 100
+       gokuLife: 100,
     }
   }
 
   reduceLife = (name, power) => {
     if(name === 'Goku') {
       this.setState({
-        vegetaLife: this.state.vegetaLife - power
+        vegetaLife: this.state.vegetaLife - power,
       })
     } else {
       this.setState({
